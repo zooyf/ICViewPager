@@ -15,8 +15,7 @@ typedef NS_ENUM(NSUInteger, ViewPagerOption) {
     ViewPagerOptionTabLocation,
     ViewPagerOptionStartFromSecondTab,
     ViewPagerOptionCenterCurrentTab,
-    ViewPagerOptionTabOffsetFromCenter,
-    ViewPagerOptionIndicatorFrameInTabView
+    ViewPagerOptionTabOffsetFromCenter
 };
 
 typedef NS_ENUM(NSUInteger, ViewPagerComponent) {
@@ -62,7 +61,7 @@ typedef NS_ENUM(NSUInteger, ViewPagerComponent) {
 @property UIColor *contentViewBackgroundColor;
 
 /*
- Indicator is drawed in drawRect: method.
+ Indicator is drawed in drawRect:
  If you want to change the indicator, find the follow content:
 Draw the indicator
  and make some changes.
